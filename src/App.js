@@ -12,7 +12,7 @@ function App() {
             </header>
             <div>
                 {nokiaToLavaThrows > 2 ?
-                    <h2>Nokia Win!</h2> :
+                    <h2>Nokia победила!</h2> :
                     <div>
                         <img src={"images/lava.jpg"} alt={"Lava"}/>
                         <h2>VS</h2>
