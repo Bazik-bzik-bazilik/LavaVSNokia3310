@@ -2,6 +2,8 @@
 
 .App {
     font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-size: large;
     text-align: center;
 }
@@ -10,7 +12,8 @@ button {
     border-style: none;
     background-color: #e8e8e8;
     padding: 10px;
-    border-radius: 15px;
+    margin: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: medium;
 }
@@ -22,7 +25,13 @@ button {
 
     html,
     body,
-    .container {
+    .App {
         height: 95%;
+    }
+
+    .App {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

@@ -1,13 +1,15 @@
 import './App.css';
 import {useState} from "react";
-import NokiaModal from "./components/modal/NokiaModal";
+import NokiaModal from "./components/NokiaModal";
 
 function App() {
     const [nokiaToLavaThrows, setNokiaToLavaThrows] = useState(0);
 
     return (
         <div className="App">
-            <h1>Lava VS Nokia 3310</h1>
+            <header>
+                <h1>Lava VS Nokia 3310</h1>
+            </header>
             <div>
                 {nokiaToLavaThrows > 2 ?
                     <h2>Nokia Win!</h2> :

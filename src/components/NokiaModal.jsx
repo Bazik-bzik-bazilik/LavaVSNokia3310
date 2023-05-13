@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import ReactModal from 'react-modal';
-import "./NokiaModal.module.css";
 
 const NokiaModal = ({imagePath, imageAlt, counter, setCounter}) => {
 
