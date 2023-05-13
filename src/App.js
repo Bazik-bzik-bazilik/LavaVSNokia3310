@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from "react";
+import NokiaModal from "./components/modal/NokiaModal";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [nokiaToLavaThrows, setNokiaToLavaThrows] = useState(0);
+
+    return (
+        <div className="App">
+            <h1>Lava VS Nokia 3310</h1>
+            <div>
+                {nokiaToLavaThrows > 2 ?
+                    <h2>Nokia Win!</h2> :
+                    <div>
+                        <img src={"images/lava.jpg"} alt={"Lava"}/>
+                        <h2>VS</h2>
+                    </div>
+                }
+                <img src={"images/nokia3310.jpg"} alt={"Nokia 3310"}/>
+            </div>
+
+            <h2>Сколько раз кинули нокию в лаву: {nokiaToLavaThrows}</h2>
+            <NokiaModal imagePath={"images/nokia3310-2.jpg"} imageAlt={"Целая Nokia 3310"}
+                        counter={nokiaToLavaThrows} setCounter={setNokiaToLavaThrows}/>
+        </div>
+    );
 }
 
 export default App;
