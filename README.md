@@ -1,5 +1,9 @@
 # Lava VS Nokia 3310
 
-<img src="docs/images/lava.jpg" alt="Lava" width="40%">
-VS
-<img src="docs/images/nokia3310.jpg" alt="Nokia 3310" width="40%">
+![Lava](docs/images/lava.jpg)
+
+## VS
+
+![Nokia 3310](docs/images/nokia3310.jpg)
+
+The project is made on ReactJS
