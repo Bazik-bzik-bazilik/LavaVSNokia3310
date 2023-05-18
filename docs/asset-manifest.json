@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/LavaVSNokia3310/static/css/main.a0a94207.css",
-    "main.js": "/LavaVSNokia3310/static/js/main.ed574526.js",
+    "main.js": "/LavaVSNokia3310/static/js/main.ffa18b57.js",
     "index.html": "/LavaVSNokia3310/index.html",
     "main.a0a94207.css.map": "/LavaVSNokia3310/static/css/main.a0a94207.css.map",
-    "main.ed574526.js.map": "/LavaVSNokia3310/static/js/main.ed574526.js.map"
+    "main.ffa18b57.js.map": "/LavaVSNokia3310/static/js/main.ffa18b57.js.map"
   },
   "entrypoints": [
     "static/css/main.a0a94207.css",
-    "static/js/main.ed574526.js"
+    "static/js/main.ffa18b57.js"
   ]
 }
