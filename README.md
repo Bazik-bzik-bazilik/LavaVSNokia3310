@@ -5,5 +5,3 @@
 ## VS
 
 ![Nokia 3310](docs/images/nokia3310.jpg)
-
-The project is made on ReactJS
